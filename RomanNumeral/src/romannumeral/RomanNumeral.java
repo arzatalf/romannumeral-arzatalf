@@ -23,7 +23,8 @@ public class RomanNumeral {
         out.println("yo enter a number greater than 0 and less than 11");
         int number=rome.nextInt();
         switch (number) {
-            case 1: out.println("1=I"); break;
+            case 1: out.println("1=I"); // All statements in this switch block should be formatted like this.
+                break;
             case 2: out.println("2=II"); break;
             case 3: out.println("3=III"); break;
             case 4: out.println("4=IV"); break;

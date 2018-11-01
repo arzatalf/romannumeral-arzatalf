@@ -22,21 +22,33 @@ public class RomanNumeral {
         Scanner rome = new Scanner(System.in);
         out.println("yo enter a number greater than 0 and less than 11");
         int number=rome.nextInt();
+        String numeral = "";
         switch (number) {
-            case 1: out.println("1=I"); // All statements in this switch block should be formatted like this.
+            case 1: numeral =("I"); 
                 break;
-            case 2: out.println("2=II"); break;
-            case 3: out.println("3=III"); break;
-            case 4: out.println("4=IV"); break;
-            case 5: out.println("5=V"); break;
-            case 6: out.println("6=VI"); break;
-            case 7: out.println("7=VII"); break;
-            case 8: out.println("8=VIII"); break;
-            case 9: out.println("9=IX"); break;
-            case 10: out.println("10=X"); break;
+            case 2: numeral =("II");
+                break;
+            case 3: numeral =("III"); 
+                break;
+            case 4: numeral =("IV"); 
+                break;
+            case 5: numeral =("V"); 
+                break;
+            case 6: numeral =("VI"); 
+                break;
+            case 7: numeral =("VII"); 
+                break;
+            case 8: numeral =("VIII"); 
+                break;
+            case 9: numeral =("IX"); 
+                break;
+            case 10: numeral=("X"); 
+                break;
             default: out.println("error enter number less than 10 more than 0");
-            break;
+                break;
         }
+        out.printf("%d = %s\n",number,numeral);
     }
     
 }
+
